@@ -11,7 +11,7 @@
    *    without disabling user zoom.
    */
 html {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -1730,16 +1730,17 @@ select {
       background-color: #da3116;
       color: #fefefe; }
   .button.hollow {
-    border: 1px solid #2199e8;
-    color: #2199e8; }
+    border: 1px solid #ecf0f1;
+    color: #ecf0f1; }
     .button.hollow, .button.hollow:hover, .button.hollow:focus {
       background-color: transparent; }
     .button.hollow:hover, .button.hollow:focus {
-      border-color: #0c4d78;
-      color: #0c4d78; }
+      border-color: #ecf0f1;
+      background-color: #ecf0f1;
+      color: #e74c3c; }
     .button.hollow.primary {
-      border: 1px solid #2199e8;
-      color: #2199e8; }
+      border: 1px solid #ecf0f1;
+      color: #ecf0f1; }
       .button.hollow.primary:hover, .button.hollow.primary:focus {
         border-color: #0c4d78;
         color: #0c4d78; }
